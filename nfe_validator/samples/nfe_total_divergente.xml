@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arquivo FICTÍCIO e simplificado, apenas para fins educacionais. -->
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe Id="NFe35261011111111111111550010000001251123456789" versao="4.00">
+    <ide><nNF>125</nNF></ide>
+    <emit><xNome>Empresa Emissora (fictícia)</xNome><enderEmit><UF>SP</UF></enderEmit></emit>
+    <dest><xNome>Cliente (fictício)</xNome><enderDest><UF>RJ</UF></enderDest></dest>
+    <det nItem="1">
+      <prod><cProd>1</cProd><NCM>39231090</NCM><CFOP>6102</CFOP><qCom>10</qCom><vUnCom>20.00</vUnCom><vProd>200.00</vProd></prod>
+      <imposto><ICMS><ICMS00><CST>00</CST><vBC>200.00</vBC><pICMS>12.00</pICMS><vICMS>24.00</vICMS></ICMS00></ICMS></imposto>
+    </det>
+    <total><ICMSTot><vProd>200.00</vProd><vICMS>24.00</vICMS><vNF>190.00</vNF></ICMSTot></total>
+  </infNFe>
+</NFe>
